@@ -96,6 +96,7 @@ h1{
     box-shadow: 5px 5px 30px -13px #000;
     font-size: 17px;
     font-weight: 400;
+    transition: 1s;
 
 }
 
@@ -103,6 +104,7 @@ h1{
     background-color: hsl(300, 69%, 71%);
     color: #fff;
     border: none;
+    transition: .5s;
 
 }
 
