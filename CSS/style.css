@@ -22,10 +22,7 @@ h1{
     font-weight: 400;
 }
 
-a{
-    text-decoration: none;
-    color:  hsl(257, 40%, 49%);
-}
+
 
 .header{
   grid-row: 1 / 2;
@@ -77,9 +74,6 @@ a{
 
 }
 
-a{
-    width: fit-content;
-}
 
 .register-btn{
     width: 13em;
@@ -90,18 +84,22 @@ a{
     background-color: #fff;
     border: 1px solid black;
     box-shadow: 5px 5px 30px -13px #000;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 400;
+
 }
 
 .register-btn:hover{
     background-color: hsl(300, 69%, 71%);
     color: #fff;
     border: none;
+
 }
 
 .register-btn:active{
-    height: 3em;
+    height: 3.4em;
     width: 9;
+    
 }
 
 
