@@ -22,6 +22,16 @@ h1{
     font-weight: 400;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: #fff;
+    text-decoration: none;
+  }
+
 
 
 .header{
