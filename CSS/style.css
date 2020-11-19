@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    max-width: 1440px;
+    max-width: 100%;
     max-height: 100%;
     background-image: url(/images/bg-desktop.svg);
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@ h1{
     color: #fff;
     grid-column: 3 ;
     grid-row: 2 / 3;    
+    padding: 2em;
 
 
 }
@@ -126,6 +127,7 @@ footer {
     grid-row: 3 ;
     grid-column: 1 / 4;
     margin-top: 1em;
+    padding: 0 3em 0 3em;
 }
     
 
@@ -165,7 +167,7 @@ footer ul li:hover{
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .main-content{
         display: flex;
         flex-direction: column;
